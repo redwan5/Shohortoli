@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/output.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="pages/gallery.html">
+    <title>Shohortoli</title>
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" /> -->
     <!-- <script src="../path/to/flowbite/dist/flowbite.min.js"></script> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
@@ -19,6 +20,8 @@
 <body>
 
                       <!-- Navbar -->
+
+
                       <div class="navbar navbar-sticky bg-yellow-200 p-0 ">
                         <div class="navbar-start">
                           <a class="navbar-item pl-8"><img src="img/Shohotoli-Logo.png" alt="" height="60" width="70px"></a>
@@ -26,14 +29,16 @@
                         <div class="navbar-end lg:space-x-12 space-x-8 text-black cursor-pointer">
                           
 
-            <a class="mr-5 hover:text-yellow-400">Home</a>
-            <a class="mr-5 hover:text-yellow-400">About</a>
-            <a class="mr-5 hover:text-yellow-400">Music</a>
-            <a class="mr-5 hover:text-yellow-400">Gallery</a>
-            <a class="mr-5 hover:text-yellow-400">Merch</a>
-            <a class="mr-5 hover:text-yellow-400 pr-14">Contack</a>
+            <a class="mr-5 hover:text-yellow-400" href="#">Home</a>
+            <a class="mr-5 hover:text-yellow-400" href="pages/about.html">About</a>
+            <a class="mr-5 hover:text-yellow-400" href="#music">Music</a>
+            <a class="mr-5 hover:text-yellow-400" href="pages/gallery.html">Gallery</a>
+            <a class="mr-5 hover:text-yellow-400" href="#merch">Merch</a>
+            <a class="mr-5 hover:text-yellow-400 pr-14" href="#footer">Contack</a>
                         </div>
                       </div>
+
+
 
     <!-- <header class="text-[#6b8cb2] body-font bg-red-500">
         <div class="sticky top-0 container mx-auto xl:px-16 flex p-0 flex-col md:flex-row items-center">
@@ -54,7 +59,15 @@
       
       
       <!-- <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Sign Up</button>   -->
-             <!-- BIO -->
+           
+      
+      
+      
+      
+      
+      
+      
+      <!-- BIO -->
 
 <!-- Slider main container -->
 <div class="swiper h-[220px] xl:h-[700px] md:h-[400px] flex">
@@ -108,7 +121,7 @@
           
           
 
-            <section class="text-white body-font mx-auto  bg-[#1c2837]">
+            <section id="music" class="text-white body-font mx-auto  bg-[#1c2837]">
               <div class="container px-5 py-24 mx-auto w-3/4">
                 
                 <div class="flex flex-wrap -m-4">
@@ -120,29 +133,22 @@
                   
                   <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
                     <a class="block relative h-60  overflow-hidden">
-                    <iframe width="320" height="245" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>  
+                      <iframe width="320" height="245" src="https://www.youtube.com/embed/XJwidf-tWNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
                     </a>
-                    <div class="mt-4">                 
-                      <button class="btn btn-outline-primary">Default</button>
-                  </div>
                 </div>
+
                 <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
                   <a class="block relative h-60 overflow-hidden">
-                    <iframe width="320" height="245" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    <iframe width="320" height="245" src="https://www.youtube.com/embed/gUYrdcNXN_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </iframe>  
                   </a>
-                  <div class="mt-4">                    
-                    <button class="btn btn-primary">Default</button>
-                  </div>
                 </div>
+
                 <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
                   <a class="block relative h-60 overflow-hidden">
-                    <iframe width="320" height="245" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    <iframe width="320" height="245" src="https://www.youtube.com/embed/QDyfMI3Lvls" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </iframe>
                   </a>
-                  <div class="mt-4">                    
-                  <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>  
-                  </div>
                 </div>
                
                 
@@ -154,182 +160,6 @@
        
        
            <!-- SONGS -->
-          
-           <section class="text- bg-w body-font mx-auto w-3/4">
-            <div class="container mx-auto flex px-5 pt-20 pb-20 md:flex-row flex-col items-center">
-              
-              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover mb-8 object-center rounded" alt="hero" src="https://dummyimage.com/720x600">
-
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">SONG NAME
-                 
-                </h1>
-                <p class="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
-              </div>
-
-              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex-col md:items-start md:text-left">
-              
-
-                               <!-- SONG 1 -->
-
-                <div class="flex justify-center pb-2">
-                  <audio id="player" src="/img/audio44.m4a"></audio>
-
-                    <div class="flex border-b-2 border-black pb-2 "> 
-                      <p class="pr-12 xl:pr-64">1.Song Name</p>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2 cursor-wait" onclick="document.getElementById('player').play()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-                      </svg>
-                      
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').pause()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
-                      </svg>
-
-                      <a href="img/audio44.m4a" download="Song">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-4">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                        </svg>
-                      </a> 
-
-                      <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
-                          <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                        </svg>
-                      </a> 
-                    </div>
-                 </div>
-
-                                    <!-- SONG 2 -->
-
-
-                 <div class="flex justify-center pb-2">
-                  <audio id="player" src="img/audio44.m4a"></audio>
-
-                    <div class="flex border-b-2 border-black pb-2"> 
-                      <p class="pr-12 xl:pr-64">1.Song Name</p>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').play()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').pause()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
-                      </svg>
-
-                      <a href="img/audio44.m4a" download="Song">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-4">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                        </svg>
-                      </a> 
-
-                      <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
-                          <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                        </svg>
-                      </a> 
-                    </div>
-                 </div>
-
-
-                                         <!-- SONG 3 -->
-
-                 <div class="flex justify-center pb-2">
-                  <audio id="player" src="img/audio44.m4a"></audio>
-
-                    <div class="flex border-b-2 border-black pb-2"> 
-                      <p class="pr-12 xl:pr-64">1.Song Name</p>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').play()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').pause()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
-                      </svg>
-
-                      <a href="img/audio44.m4a" download="Song">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-4">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                        </svg>
-                      </a> 
-
-                      <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
-                          <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                        </svg>
-                      </a> 
-                    </div>
-                 </div>
-
-                             <!-- SONG 4 -->
-
-
-                 <div class="flex justify-center pb-2">
-                  <audio id="player" src="img/audio44.m4a"></audio>
-
-                    <div class="flex border-b-2 border-black pb-2"> 
-                      <p class="pr-12 xl:pr-64">1.Song Name</p>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').play()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').pause()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
-                      </svg>
-
-                      <a href="img/audio44.m4a" download="Song">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-4">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                        </svg>
-                      </a> 
-
-                      <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
-                          <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                        </svg>
-                      </a> 
-                    </div>
-                 </div>
-
-                                       <!-- SONG 5 -->
-
-                 <div class="flex justify-center pb-2">
-                  <audio id="player" src="img/audio44.m4a"></audio>
-
-                    <div class="flex border-b-2 border-black pb-2"> 
-                      <p class="pr-12 xl:pr-64">1.Song Name</p>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').play()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
-                      </svg>
-
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-2" onclick="document.getElementById('player').pause()">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
-                      </svg>
-
-                      <a href="img/audio44.m4a" download="Song">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 mr-4">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                        </svg>
-                      </a> 
-
-                      <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
-                          <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                        </svg>
-                      </a> 
-                    </div>
-                 </div>
-
-
-
-              </div>
-
-
-            </div>
-          </section>
 
           
 
@@ -384,7 +214,7 @@
           
           
 
-            <section class="text-white body-font mx-auto  bg-[#1c2837]">
+            <section id="merch" class="text-white body-font mx-auto  bg-[#1c2837]">
               <div class="container px-5 py-24 mx-auto w-3/4">
                 
                 <div class="flex flex-wrap -m-4">
@@ -396,26 +226,28 @@
                   
                   <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
                     <a class="block relative h-60  overflow-hidden">
-                      <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+                    <img src="img/a3.jpg" alt=""> 
                     </a>
                     <div class="mt-4">                 
-                    <p class="mt-1">$16.00</p>
+                      <button class="btn btn-outline-primary">Buy Now</button>
                   </div>
                 </div>
+
                 <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
                   <a class="block relative h-60 overflow-hidden">
-                    <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+                  <img src="img/a2.jpg" alt="">  
                   </a>
                   <div class="mt-4">                    
-                    <p class="mt-1">$21.15</p>
+                    <button class="btn btn-primary">Buy Now</button>
                   </div>
                 </div>
+
                 <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
                   <a class="block relative h-60 overflow-hidden">
                     <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
                   </a>
                   <div class="mt-4">                    
-                    <p class="mt-1">$12.00</p>
+                    <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>  
                   </div>
                 </div>
                
@@ -474,7 +306,7 @@
 
                                                                              <!-- SOCIAL MEDIA -->
 
-          <section class="text-white body-font mx-auto  bg-yellow-900">
+          <!-- <section class="text-white body-font mx-auto  bg-yellow-900">
               <div class="flex justify-around container px-5 py-24 mx-auto w-3/4">
 
                 
@@ -493,19 +325,88 @@
 </div>
               
               </div>
-            </section>
+            </section> -->
 
                <!-- FOOTER -->
           
-               <footer class="text-gray-600 bg-slate-400 body-font">
-                 <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
-                 
-                   <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 
-                     <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
-                   </p>
-                 
-                 </div>
-               </footer>
+               
+<footer id="footer" class="bg-white dark:bg-gray-900">
+  <div class="mx-auto w-full max-w-screen-xl">
+    <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+      <div>
+          <!-- <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2> -->
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class=" hover:underline">Home</a>
+              </li>
+              <li class="mb-4">
+                  <a href="pages/about.html" class="hover:underline">About</a>
+              </li>
+              <li class="mb-4">
+                  <a href="#music" class="hover:underline">Music</a>
+              </li>
+              <li class="mb-4">
+                  <a href="pages/gallery.html" class="hover:underline">Gallery</a>
+              </li>
+          </ul>
+      </div>
+      <div>
+          <!-- <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2> -->
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="https://www.facebook.com/metalfreaktshirt?mibextid=ZbWKwL" class="hover:underline">Merch</a>
+              </li>
+             
+          </ul>
+      </div>
+      <div>
+          <!-- <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2> -->
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              <li class="mb-4">
+                  <a href="#" class="hover:underline">Privacy Policy</a>
+              </li>
+              
+          </ul>
+      </div>
+      <div>
+          <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us on</h2>
+          <ul class="text-gray-500 dark:text-gray-400 font-medium">
+              
+              <li class="mb-4 bg-slate-500">
+                <a href="https://www.facebook.com/ShohortoliBand?mibextid=ZbWKwL">
+                  <svg class="h-9 w-9 text-blue-600"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                  </svg>
+                </a>  
+              </li>
+              
+              <li class="mb-4">
+              <a href="https://www.youtube.com/@Shohortoli">
+                <svg class="h-8 w-8 text-red-500"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />  <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg>
+              </a>  
+              </li>
+
+              <li class="mb-4">
+              <a href="https://www.instagram.com/shohortoli_band/">
+                <svg class="h-8 w-8 text-red-700"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg>
+              </a>
+              </li>
+
+              <li class="mb-4">
+               <a href="https://open.spotify.com/artist/3haP4kXW7nY2k03cT7MbtD">
+                <img src="img/spoty.svg" alt="" class="w-9 h-9">
+               </a> 
+              </li>
+          </ul>
+      </div>
+  </div>
+  <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+      <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">All Rights Reserved By Shohortoli .
+      </span>
+      
+    </div>
+
+  </div>
+</footer>
 
         
 

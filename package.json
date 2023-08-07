@@ -15,6 +15,7 @@
     "vite": "^4.2.1"
   },
   "dependencies": {
+    "flowbite": "^1.8.1",
     "rippleui": "^1.12.1"
   }
 }
