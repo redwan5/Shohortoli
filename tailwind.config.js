@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['*',
-  "./node_modules/flowbite/**/*.js"
+  "./node_modules/flowbite/**/*.js",
 ],
   theme: {
     extend: {},
   },
-  plugins: [require("rippleui"),
-  require('flowbite/plugin')
+  plugins: [
+  require('flowbite/plugin'),
+  require("rippleui")
 ],
 }
 
