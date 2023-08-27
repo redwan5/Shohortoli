@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/output.css">
-    <link rel="stylesheet" href="pages/gallery.html">
+ 
     <title>Shohortoli</title>
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"  rel="stylesheet" /> -->
     <!-- <script src="../path/to/flowbite/dist/flowbite.min.js"></script> -->
@@ -29,11 +29,29 @@
                           
 
             <a class="mr-5 hover:text-yellow-400" href="#">Home</a>
-            <a class="mr-5 hover:text-yellow-400" href="./pages/about.html">About</a>
+            <!-- <a class="mr-5 hover:text-yellow-400" href="./pages/about.html">About</a> -->
+            <button id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover" class="text-black   focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center hover:text-yellow-400" type="button">About<svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+            </svg></button>
+            <!-- Dropdown menu -->
+            <div id="dropdownHover" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
+              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownHoverButton">
+                <li>
+                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Our Story Discography</a>
+                </li>
+                <li>
+                  <a href="pages/lyrics.html" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Members lyrics</a>
+                </li>
+               
+              </ul>
+            </div>
             <a class="mr-5 hover:text-yellow-400" href="./pages/lyrics.html">Music</a>
             <a class="mr-5 hover:text-yellow-400" href="pages/gallery.html">Gallery</a>
             <a class="mr-5 hover:text-yellow-400" href="#merch">Merch</a>
             <a class="mr-5 hover:text-yellow-400 pr-14" href="#footer">Contack</a>
+            
+
+
                         </div>
                       </div>
 
@@ -71,7 +89,7 @@
 <!-- Slider main container -->
 
             
-<div id="default-carousel" class="relative w-full" data-carousel="slide">
+<div id="default-carousel" class="relative w-full overflow-hidden" data-carousel="slide">
   <!-- Carousel wrapper -->
   <div class="relative h-[220px] xl:h-[700px] md:h-[400px] overflow-hidden rounded-lg">
        <!-- Item 1 -->
@@ -120,8 +138,12 @@
           <span class="sr-only">Next</span>
       </span>
   </button>
-</div>
 
+
+  <button class="text-white absolute px-4 -mt-7 w-auto h-10 bg-red-600 rounded-full hover:bg-red-700 active:shadow-lg mouse shadow transition ease-in duration-200 focus:outline-none">
+    <span>Extendeddd</span>
+  </button>
+</div>
 
 
 
@@ -277,7 +299,9 @@
                     <img src="img/t1.jpg" alt=""> 
                     </a>
                     <div class="mt-4">                 
-                      <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>  
+                    <a href="https://www.facebook.com/metalfreaktshirt?mibextid=ZbWKwL">
+                      <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>
+                    </a>  
                     </div>
                 </div>
 
@@ -286,16 +310,20 @@
                   <img src="img/t2.jpg" alt="">  
                   </a>
                   <div class="mt-4">                    
-                    <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>  
+                    <a href="https://www.facebook.com/metalfreaktshirt?mibextid=ZbWKwL">
+                      <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>
+                    </a>
                   </div>
                 </div>
 
                 <div class="lg:w-1/3 md:w-1/2 p-4 w-full">
                   <a class="block relative h-60 overflow-hidden">
-                    <img src="img/t3.jpg" alt="">   </a>
+                    <img src="img/t3.jpg" alt="">  
+                   </a>
                   <div class="mt-4">                    
-                    <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>  
-                  </div>
+                    <a href="https://www.facebook.com/metalfreaktshirt?mibextid=ZbWKwL">
+                      <button class="inline-flex items-center bg-[#ffc74e] border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded-lg text-base mt-4 md:mt-0 text-black">Buy now</button>
+                    </a></div>
                 </div>
                
                 
