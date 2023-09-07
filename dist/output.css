@@ -1673,27 +1673,6 @@ html {
   }
 }
 
-.btn-solid-primary {
-  --tw-bg-opacity: 1;
-  --tw-text-opacity: 1;
-  background-color: rgb(var(--blue-4)/var(--tw-bg-opacity));
-  color: rgb(var(--blue-11)/var(--tw-text-opacity));
-}
-
-.btn-solid-primary:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(var(--blue-5)/var(--tw-bg-opacity));
-}
-
-.btn-solid-primary:focus-visible {
-  outline-color: rgb(var(--blue-6));
-}
-
-.btn-solid-primary:active {
-  --tw-bg-opacity: 1;
-  background-color: rgb(var(--blue-6)/var(--tw-bg-opacity));
-}
-
 .input {
   --tw-border-opacity: 1;
   --tw-bg-opacity: 1;
