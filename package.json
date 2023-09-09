@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
     "watch": "tailwindcss -i ./input.css -o ./dist/output.css --watch "
   },
   "keywords": [],
